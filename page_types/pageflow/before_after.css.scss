@@ -1,0 +1,89 @@
+@include pageflow-page-type(before_after);
+
+.before_after {
+  pointer-events: all;
+
+  .before_image, .after_image {
+    width: auto;
+  }
+
+  .before_wrapper {
+    border-right: 2px solid gray;
+
+    &:before {
+      position: absolute;
+      display: block;
+      width: 39px;
+      height: 39px;
+      top: -25px;
+      background: image-url('before_after/draghandle.png') no-repeat;
+      z-index: 2;
+      background-repeat: no-repeat;
+      background-size: 65%;
+      background-position: center bottom;
+      content: "";
+      right: -21px;
+    }
+  }
+
+  .dragwrapper {
+    position: absolute;
+    z-index: 1;
+    width: 39px;
+    margin: 0;
+    cursor: col-resize;
+    top: 0;
+    height: 100%;
+    margin-left: -19px;
+    visibility: hidden;
+  }
+
+  .ba_indicator {
+    position: absolute;
+    display: block;
+    width: 7px;
+    height: 15px;
+
+
+    &.ba_left_indicator {
+      background: image-url('before_after/lt-small.png') no-repeat;
+    }
+    &.ba_right_indicator {
+      background: image-url('before_after/rt-small.png') no-repeat;
+    }
+
+  }
+}
+
+.page .beforeAfterPage {
+
+  .videoWrapper {
+    height: 100%;
+  }
+
+  .shadow {
+    z-index: 1;
+  }
+
+}
+
+.hideText .beforeAfterPage  .before_wrapper {
+    border-right: 2px solid white;
+    overflow: visible !important;
+}
+
+.hideText div.before_after .dragwrapper {
+  visibility: visible;
+  z-index: 2;
+}
+
+.js .beforeAfterPage {
+
+  .contentText {
+    margin-bottom: 200px;
+
+    @include phone {
+      margin-bottom: 100px;
+    }
+  }
+}

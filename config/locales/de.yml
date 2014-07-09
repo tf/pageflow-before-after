@@ -1,0 +1,9 @@
+de:
+  pageflow:
+    before_after:
+      page_type_name: "Vorher/Naher"
+  activerecord:
+    attributes:
+      page:
+        before_image_id: "Vorher-Bild"
+        after_image_id: "Nachher-Bild"
