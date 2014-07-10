@@ -15,16 +15,17 @@ Register the page type:
     Pageflow.configure do |config|
       config.register_page_type(Pageflow::BeforeAfter::PageType.new)
     end
-    
+
 Include javascripts and stylesheets:
 
     # app/assets/javascripts/application.js
     //= require "pageflow/before_after"
 
-    # app/assets/javascripts/editor.js
-    //= require "pageflow/before_after/editor"
+    # app/assets/javascripts/pageflow/editor.js
+    //= require pageflow/before_after/editor
 
     # app/assets/stylesheets/application.scss.css
-    @import "pageflow/before_after"
-    
+    @import "pageflow/before_after";
+
+Execute `bundle install`
 Restart the application server.

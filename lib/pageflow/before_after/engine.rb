@@ -1,3 +1,5 @@
+require "pageflow/page_type"
+
 module Pageflow
   module BeforeAfter
     class Engine < Rails::Engine

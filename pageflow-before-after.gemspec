@@ -14,6 +14,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency('rails')
-  spec.add_runtime_dependency('pageflow-core')
+
+  spec.add_runtime_dependency('pageflow')
+
+  # Using translations from rails locales in javascript code.
+  spec.add_runtime_dependency 'i18n-js'
 end
