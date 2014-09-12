@@ -16,7 +16,7 @@
       width: 39px;
       height: 39px;
       top: -25px;
-      background: image-url('before_after/draghandle.png') no-repeat;
+      background: image-url('pageflow/before_after/draghandle.png') no-repeat;
       z-index: 2;
       background-repeat: no-repeat;
       background-size: 65%;
@@ -46,10 +46,10 @@
 
 
     &.ba_left_indicator {
-      background: image-url('before_after/lt-small.png') no-repeat;
+      background: image-url('pageflow/before_after/lt-small.png') no-repeat;
     }
     &.ba_right_indicator {
-      background: image-url('before_after/rt-small.png') no-repeat;
+      background: image-url('pageflow/before_after/rt-small.png') no-repeat;
     }
 
   }
