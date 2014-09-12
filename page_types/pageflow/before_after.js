@@ -1,3 +1,4 @@
+//= require jquery.ui.draggable
 //= require ./before_after/widget
 
 pageflow.pageType.register('before_after', _.extend({
