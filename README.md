@@ -1,5 +1,7 @@
 # Pageflow Before After
 
+[![Gem Version](https://badge.fury.io/rb/pageflow-before-after.svg)](http://badge.fury.io/rb/pageflow-before-after)
+
 Page type showing before/after image sliders (Digit style).
 
 ## Installation
