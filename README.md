@@ -26,7 +26,7 @@ Include javascripts and stylesheets:
     # app/assets/javascripts/pageflow/editor.js
     //= require pageflow/before_after/editor
 
-    # app/assets/stylesheets/application.scss.css
+    # app/assets/stylesheets/pageflow/application.scss.css
     @import "pageflow/before_after";
 
 Execute `bundle install`
