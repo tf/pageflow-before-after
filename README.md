@@ -31,3 +31,7 @@ Include javascripts and stylesheets:
 
 Execute `bundle install`
 Restart the application server.
+
+## Troubleshooting
+
+If you run into problems while installing the page type, please also refer to the [Troubleshooting](https://github.com/codevise/pageflow/wiki/Troubleshooting) wiki page in the [Pageflow  repository](https://github.com/codevise/pageflow). If that doesn't help, consider [filing an issue](https://github.com/codevise/pageflow-before-after/issues).
