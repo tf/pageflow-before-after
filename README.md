@@ -20,7 +20,7 @@ Register the page type:
 
 Include javascripts and stylesheets:
 
-    # app/assets/javascripts/application.js
+    # app/assets/javascripts/pageflow/application.js
     //= require "pageflow/before_after"
 
     # app/assets/javascripts/pageflow/editor.js
