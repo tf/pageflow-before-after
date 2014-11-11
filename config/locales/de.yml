@@ -1,7 +1,7 @@
 de:
   pageflow:
     before_after:
-      page_type_name: "Vorher/Naher"
+      page_type_name: "Vorher/Nachher"
   activerecord:
     attributes:
       pageflow/page:
