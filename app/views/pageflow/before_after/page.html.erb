@@ -20,7 +20,7 @@
 
   <div class="content">
     <div class="controls">
-      <span class="hint">360 Gradansicht</span>
+      <span class="hint">Vorher/Nachher-Ansicht</span>
       <%= info_box(configuration) %>
       <div class="vjs-control-bar view-control">
         <div class="play_button vjs-controls vjs-default-skin vjs-player">
@@ -41,7 +41,7 @@
               <span class="title"><%= configuration['title'] %></span>
               <span class="subtitle"><%= configuration['subtitle'] %></span>
             </h2>
-            <%= background_image_tag(configuration['background_image_id'], {"class" => "print_image"}) %>
+            <%= background_image_tag(configuration['background_image_id'], {:class => "print_image"}) %>
           </div>
           <div class="contentText">
             <p><%= raw configuration['text'] %></p>
