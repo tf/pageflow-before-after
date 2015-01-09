@@ -2,6 +2,7 @@ de:
   pageflow:
     before_after:
       page_type_name: "Vorher/Nachher"
+      page_type_category_name: "Interaktiv"
   activerecord:
     attributes:
       pageflow/page:
