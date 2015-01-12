@@ -9,7 +9,7 @@ Page type showing before/after image sliders (Digit style).
 Add this line to your application's Gemfile:
 
     # Gemfile
-    gem 'pagflow-before-after'
+    gem 'pageflow-before-after'
 
 Register the page type:
 
