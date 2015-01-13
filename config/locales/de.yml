@@ -3,6 +3,7 @@ de:
     before_after:
       page_type_name: "Vorher/Nachher"
       page_type_category_name: "Interaktiv"
+      page_type_description: "Zwei übereinandergelegte Bilder mit Schieberegler getrennt"
   activerecord:
     attributes:
       pageflow/page:
