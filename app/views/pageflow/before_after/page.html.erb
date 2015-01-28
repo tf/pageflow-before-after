@@ -1,6 +1,6 @@
 <div class="blackLayer"></div>
 <div class="content_and_background beforeAfterPage">
-  <div class="close_button text_hidden_only" tabindex="4" title="Vorher/Nachher-Ansicht verlassen und Text einblenden">Schließen</div>
+  <div class="close_button text_hidden_only" tabindex="4" title="<%= t('.close_title') %>"><%= t('.close') %></div>
 
   <div class="backgroundArea">
     <div class="videoWrapper">
@@ -20,14 +20,14 @@
 
   <div class="content">
     <div class="controls">
-      <span class="hint">Vorher/Nachher-Ansicht</span>
+      <span class="hint"><%= t('.hint') %></span>
       <%= info_box(configuration) %>
       <div class="vjs-control-bar view-control">
         <div class="play_button vjs-controls vjs-default-skin vjs-player">
-          <a class="vjs-play-control vjs-play vjs-control" tabindex="4" title="Vorher/Nachher-Ansicht starten"><span></span></a>
+          <a class="vjs-play-control vjs-play vjs-control" tabindex="4" title="<%= t('.start_title') %>"><span></span></a>
         </div>
         <div class="control_bar_text">
-          Vorher/Nachher-Ansicht starten
+          <%= t('.start') %>
         </div>
       </div>
     </div>

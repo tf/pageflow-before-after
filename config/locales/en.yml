@@ -1,0 +1,30 @@
+en:
+  activerecord:
+    attributes:
+      pageflow/page:
+        after_image_id: Right image
+        before_image_id: Left image
+  pageflow:
+    before_after:
+      help_entries:
+        page_type:
+          menu_item: Before/After
+          text: ! '# Before/After
+
+
+            Two overlapping pictures, separated through a slider
+
+
+            With the before and after effect two pictures can be put on top of each other. The pictures can be viewed with a slider. This page type makes sense, if you want to compare something. If the angle and sequence match, this it is particularly effective.
+
+
+            Examples of application: now and then, status quo and planned, empty or crowded'
+      page:
+        close: Close
+        close_title: Leave before/after view
+        hint: Before/after view
+        start: Start before/after view
+        start_title: Start before/after view
+      page_type_category_name: Interactive
+      page_type_description: Two images separated by a slider
+      page_type_name: Before/After
