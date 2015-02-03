@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### Version 0.2.0
+
+- Localization for `de` and `en`.
+
 ### Version 0.1.0
 
 - Display correct page thumbnails in Pageflow 0.5.

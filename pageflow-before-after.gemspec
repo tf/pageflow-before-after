@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'pageflow-before-after'
-  spec.version       = '0.2.0.alpha'
+  spec.version       = '0.2.0'
   spec.authors       = ['Codevise Solutions']
   spec.email         = ['info@codevise.de']
   spec.summary       = 'Pageflow page type for before/after image slider.'
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
 
-  spec.add_dependency 'pageflow'
+  spec.add_dependency 'pageflow', '~> 0.7'
 
   spec.add_dependency 'jquery-ui-rails', '~> 5.0'
 
