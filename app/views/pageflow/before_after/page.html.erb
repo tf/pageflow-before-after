@@ -31,7 +31,7 @@
           <a class="vjs-play-control vjs-play vjs-control" tabindex="4" title="<%= t('.start_title') %>"><span></span></a>
         </div>
         <div class="control_bar_text">
-          <%= t('.start') %>
+          <%= configuration['control_bar_text'].presence || t('.start') %>
         </div>
       </div>
     </div>

@@ -8,6 +8,11 @@ pageflow.ConfigurationEditorView.register('before_after', {
     this.tab('general', function() {
       this.group('general');
 
+      this.input('control_bar_text', pageflow.TextInputView, {
+        placeholder: I18n.t('pageflow.before_after.page.start', {
+          locale: pageflow.entry.configuration.get('locale')
+        })
+      });
       this.input('additional_title', pageflow.TextInputView);
       this.input('additional_description', pageflow.TextAreaInputView, {size: 'short'});
     });
