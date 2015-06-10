@@ -49,6 +49,10 @@ pageflow.pageType.register('before_after', _.extend({
     pageElement.find('h2 .title').text(configuration.get('title') || '');
     pageElement.find('h2 .subtitle').text(configuration.get('subtitle') || '');
     pageElement.find('p').html(configuration.get('text') || '');
+    pageElement.find('.control_bar_text').text(configuration.get('control_bar_text') ||
+                                               I18n.t('pageflow.before_after.page.start', {
+                                                 locale: pageflow.entry.configuration.get('locale')
+                                               }));
 
     this.updateInfoBox(pageElement, configuration);
     this.updateCommonPageCssClasses(pageElement, configuration);
