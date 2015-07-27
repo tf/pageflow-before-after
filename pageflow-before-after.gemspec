@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Codevise Solutions']
   spec.email         = ['info@codevise.de']
   spec.summary       = 'Pageflow page type for before/after image slider.'
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/codevise/pageflow-before-after'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)

@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### Changes on `master`
+
+- Make control bar text configurable
+  ([#8](https://github.com/codevise/pageflow-before-after/pull/8))
+
 ### Version 0.2.0
 
 - Localization for `de` and `en`.
