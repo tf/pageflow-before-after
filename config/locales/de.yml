@@ -4,6 +4,7 @@ de:
       pageflow/page:
         after_image_id: Nachher-Bild
         before_image_id: Vorher-Bild
+        control_bar_text: Start-Button Beschriftung
   pageflow:
     before_after:
       help_entries:

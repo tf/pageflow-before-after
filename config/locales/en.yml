@@ -4,6 +4,7 @@ en:
       pageflow/page:
         after_image_id: Right image
         before_image_id: Left image
+        control_bar_text: Start-button caption
   pageflow:
     before_after:
       help_entries:

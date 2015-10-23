@@ -2,6 +2,10 @@
 
 ### Changes on `master`
 
+None so far.
+
+### Version 0.3.0
+
 - Make control bar text configurable
   ([#8](https://github.com/codevise/pageflow-before-after/pull/8))
 
