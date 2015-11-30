@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'pageflow-before-after'
-  spec.version       = '0.3.0'
+  spec.version       = '0.4.0.alpha'
   spec.authors       = ['Codevise Solutions']
   spec.email         = ['info@codevise.de']
   spec.summary       = 'Pageflow page type for before/after image slider.'
