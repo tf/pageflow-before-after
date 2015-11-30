@@ -9,7 +9,7 @@ pageflow.ConfigurationEditorView.register('before_after', {
       this.group('general');
 
       this.input('control_bar_text', pageflow.TextInputView, {
-        placeholder: I18n.t('pageflow.before_after.page.start', {
+        placeholder: I18n.t('pageflow.public.before_after.start', {
           locale: pageflow.entry.configuration.get('locale')
         })
       });
