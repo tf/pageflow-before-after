@@ -10,30 +10,7 @@ de:
       help_entries:
         page_type:
           menu_item: Vorher/Nachher
-          text: ! '# Vorher/Nachher
-
-
-            Zwei übereinander liegende Bilder mit Schieberegler getrennt
-
-
-            Mit dem Vorher/Nachher-Effekt lassen sich zwei Bilder übereinander legen, die dann per
-
-            Schieberegler mehr oder weniger in Erscheinung treten.
-
-            Dieser Seitentyp macht vor allem dann Sinn, wenn Du etwas miteinander vergleichen
-
-            möchtest. Besonders wirksam ist dieser optische Abgleich, wenn Winkel und Ausschnitt
-
-            beider Aufnahmen oder Grafiken exakt übereinstimmen.
-
-
-            Typische Anwendungsbeispiele: Damals wie Heute, Status quo und Planung, leer oder voll etc.'
-      page:
-        close: Schließen
-        close_title: Vorher/Nachher-Ansicht verlassen und Text einblenden
-        hint: Vorher/Nacher Ansicht
-        start: Vorher/Nachher-Ansicht starten
-        start_title: Vorher/Nachher-Ansicht starten
+          text: ! "# Vorher/Nachher\n\n*Zwei übereinander liegende Bilder mit Schieberegler getrennt*\n    \nMit dem Vorher/Nachher-Effekt lassen sich zwei Bilder übereinander legen, die dann per\nSchieberegler mehr oder weniger in Erscheinung treten.\nDieser Seitentyp macht vor allem dann Sinn, wenn Du etwas miteinander vergleichen\nmöchtest. Besonders wirksam ist dieser optische Abgleich, wenn Winkel und Ausschnitt\nbeider Aufnahmen oder Grafiken exakt übereinstimmen.\n\nTypische Anwendungsbeispiele: Damals wie Heute, Status quo und Planung, leer oder voll etc."
       page_type_category_name: Interaktiv
       page_type_description: Zwei übereinandergelegte Bilder mit Schieberegler getrennt
       page_type_name: Vorher/Nachher
