@@ -1,8 +1,8 @@
 <div class="blackLayer"></div>
 <div class="content_and_background beforeAfterPage">
-  <div class="close_button text_hidden_only" tabindex="4" title="<%= t('.close_title') %>">
+  <div class="close_button text_hidden_only" tabindex="4" title="<%= t('pageflow.public.before_after.leave_view') %>">
     <div class="label">
-      <%= t('.close') %>
+      <%= t('pageflow.public.close') %>
     </div>
   </div>
 
@@ -24,14 +24,14 @@
 
   <div class="content">
     <div class="controls">
-      <span class="hint"><%= t('.hint') %></span>
+      <span class="hint"><%= t('pageflow.public.before_after.hint') %></span>
       <%= info_box(configuration) %>
       <div class="vjs-control-bar view-control">
         <div class="play_button vjs-controls vjs-default-skin vjs-player">
-          <a class="vjs-play-control vjs-play vjs-control" tabindex="4" title="<%= t('.start_title') %>"><span></span></a>
+          <a class="vjs-play-control vjs-play vjs-control" tabindex="4" title="<%= t('pageflow.public.before_after.start_title') %>"><span></span></a>
         </div>
         <div class="control_bar_text">
-          <%= configuration['control_bar_text'].presence || t('.start') %>
+          <%= configuration['control_bar_text'].presence || t('pageflow.public.before_after.start') %>
         </div>
       </div>
     </div>
