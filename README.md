@@ -15,7 +15,7 @@ Register the page type:
 
     # config/initializers/pageflow.rb
     Pageflow.configure do |config|
-      config.page_types.register(Pageflow::BeforeAfter::PageType.new)
+      config.page_types.register(Pageflow::BeforeAfter.page_type)
     end
 
 Include javascripts and stylesheets:
