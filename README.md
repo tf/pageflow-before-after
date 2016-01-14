@@ -29,6 +29,9 @@ Include javascripts and stylesheets:
     # app/assets/stylesheets/pageflow/application.css.scss
     @import "pageflow/before_after";
 
+    # app/assets/stylesheets/pageflow/themes/default.css.scss
+    @import "pageflow/before_after/themes/default";
+
 Execute `bundle install`
 Restart the application server.
 
