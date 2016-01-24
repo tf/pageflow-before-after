@@ -6,9 +6,11 @@ pageflow.pageType.register('before_after', _.extend({
   prepareNextPageTimeout: 0,
 
   enhance: function(pageElement, configuration) {
+    var that = this;
+
     pageElement.addClass('hide_content_with_text');
 
-    pageElement.find('.play_button').on('mousedown touchstart', function() {
+    pageElement.find('.play_button').on('click', function() {
       pageflow.hideText.activate();
     });
 
@@ -16,6 +18,14 @@ pageflow.pageType.register('before_after', _.extend({
       pageflow.hideText.deactivate();
       e.stopPropagation();
     });
+
+    this.removeUnplayedClass = function() {
+      pageElement.find('.content_and_background').removeClass('unplayed');
+    };
+
+    this.enableScrollIndicator = function() {
+      that.scrollIndicator.enable();
+    };
   },
 
   prepare: function(pageElement, configuration) {
@@ -34,12 +44,18 @@ pageflow.pageType.register('before_after', _.extend({
     pageElement.find(".before_after").before_after();
     pageElement.find(".before_after").before_after("refresh");
     pageElement.find('.scroller').scroller("refresh");
+    pageElement.find('.content_and_background').addClass('unplayed');
   },
 
   activated: function(pageElement, configuration) {
+    pageflow.hideText.on('activate', this.removeUnplayedClass);
+    pageflow.hideText.on('deactivate', this.enableScrollIndicator);
   },
 
-  deactivating: function(pageElement, configuration) {},
+  deactivating: function(pageElement, configuration) {
+    pageflow.hideText.off('activate', this.removeUnplayedClass);
+    pageflow.hideText.off('deactivate', this.enableScrollIndicator);
+  },
 
   deactivated: function(pageElement, configuration) {},
 
