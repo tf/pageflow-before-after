@@ -20,7 +20,7 @@ pageflow.pageType.register('before_after', _.extend({
     });
 
     this.removeUnplayedClass = function() {
-      pageElement.find('.controls').removeClass('unplayed');
+      pageElement.find('.content_and_background').removeClass('unplayed');
     };
 
     this.enableScrollIndicator = function() {
@@ -44,7 +44,7 @@ pageflow.pageType.register('before_after', _.extend({
     pageElement.find(".before_after").before_after();
     pageElement.find(".before_after").before_after("refresh");
     pageElement.find('.scroller').scroller("refresh");
-    pageElement.find('.controls').addClass('unplayed');
+    pageElement.find('.content_and_background').addClass('unplayed');
   },
 
   activated: function(pageElement, configuration) {
