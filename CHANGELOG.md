@@ -1,8 +1,18 @@
 # CHANGELOG
 
-### Changes on `master`
+### Version 0.4.0
 
-None so far.
+2016-06-09
+
+[Compare changes](https://github.com/codevise/pageflow-before-after/compare/v0.3.0...v0.4.0)
+
+- Use configurable page type pictograms
+  ([#14](https://github.com/codevise/pageflow-before-after/pull/14))
+- Use public i18n gem translation in update method
+  ([#12](https://github.com/codevise/pageflow-before-after/pull/12),
+   [#11](https://github.com/codevise/pageflow-before-after/pull/11),
+   [#10](https://github.com/codevise/pageflow-before-after/pull/10),
+   [#9](https://github.com/codevise/pageflow-before-after/pull/9))
 
 ### Version 0.3.0
 
