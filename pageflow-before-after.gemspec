@@ -1,8 +1,11 @@
 # coding: utf-8
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'pageflow/before_after/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'pageflow-before-after'
-  spec.version       = '0.4.0.alpha'
+  spec.version       = Pageflow::BeforeAfter::VERSION
   spec.authors       = ['Codevise Solutions']
   spec.email         = ['info@codevise.de']
   spec.summary       = 'Pageflow page type for before/after image slider.'
@@ -21,4 +24,7 @@ Gem::Specification.new do |spec|
 
   # Using translations from rails locales in javascript code.
   spec.add_dependency 'i18n-js'
+
+  # Semantic versioning rake tasks
+  spec.add_development_dependency 'semmy', '~> 0.2.1'
 end
