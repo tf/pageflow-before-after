@@ -1,10 +1,13 @@
 # CHANGELOG
 
-### Changes on `master`
+### Version 0.5.0
 
-[Compare changes](https://github.com/codevise/pageflow-before-after/compare/v0.4.0...master)
+2016-09-09
 
-None so far.
+[Compare changes](https://github.com/codevise/pageflow-before-after/compare/v0.4.0...v0.5.0)
+
+- Add support for slim player control theme variant
+  ([#15](https://github.com/codevise/pageflow-before-after/pull/15))
 
 ### Version 0.4.0
 
