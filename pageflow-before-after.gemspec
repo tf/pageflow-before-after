@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'pageflow', ['>= 0.11', '< 13']
-  spec.add_dependency 'pageflow-public-i18n', '~> 1.0'
+  spec.add_dependency 'pageflow-public-i18n', '~> 1.8'
 
   spec.add_dependency 'jquery-ui-rails', '~> 5.0'
 

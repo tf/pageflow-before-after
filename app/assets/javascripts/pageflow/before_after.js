@@ -67,7 +67,7 @@ pageflow.pageType.register('before_after', _.extend({
     pageElement.find('p').html(configuration.get('text') || '');
     pageElement.find('.control_bar_text').text(configuration.get('control_bar_text') ||
                                                I18n.t('pageflow.public.before_after.start', {
-                                                 locale: pageflow.entry.configuration.get('locale')
+                                                 locale: pageflow.seed.locale
                                                }));
 
     this.updateInfoBox(pageElement, configuration);
