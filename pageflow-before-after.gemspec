@@ -26,5 +26,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'i18n-js'
 
   # Semantic versioning rake tasks
-  spec.add_development_dependency 'semmy', '~> 0.3.0'
+  spec.add_development_dependency 'semmy', '~> 1.0'
 end

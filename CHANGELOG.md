@@ -1,6 +1,6 @@
 # CHANGELOG
 
-### Changes on `master`
+### Unreleased Changes
 
 [Compare changes](https://github.com/codevise/pageflow-before-after/compare/v0.5.0...master)
 
