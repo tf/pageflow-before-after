@@ -85,25 +85,23 @@
       var beforeWrapper = $('.before_wrapper', obj);
 
       // Create an inner div wrapper (dragwrapper) to hold the images.
-      var dragwrapper = document.createElement('div');
-      dragwrapper.id = 'dragwrapper' + randID;
-      dragwrapper.className = 'dragwrapper';
-      dragwrapper.title = I18n.t('pageflow.public.before_after.dragwrapper.title', {
+
+      var dragwrapper = $('<div class="dragwrapper" />');
+      dragwrapper.attr('id', 'dragwrapper' + randID);
+      dragwrapper.attr('title', I18n.t('pageflow.public.before_after.drag_hint', {
         locale: pageflow.seed.locale
-      });
+      }));
+      $(obj).prepend(dragwrapper);
 
-      var dragHandle = document.createElement('span');
-      dragHandle.id = 'draghandle' + randID;
-      dragHandle.className = 'draghandle';
-      dragwrapper.appendChild(dragHandle);
+      var dragHandle = $('<span class="draghandle" />');
+      dragHandle.attr('id', 'draghandle' + randID);
+      dragwrapper.append(dragHandle);
 
-      var drag = document.createElement('div');
-      drag.id = 'drag' + randID;
-      drag.className = 'drag';
-      dragwrapper.appendChild(drag);
+      var dragInner = $('<div class="drag" />');
+      dragInner.attr('id', 'drag' + randID);
+      dragwrapper.append(dragInner);
 
       dragwrapper.css({'opacity':1,'position':'absolute','padding':'0','left':o.introPosition * 100 +'%'}).height("100%");
-      $(obj).prepend(dragwrapper);
 
       var afterWrapper = $('.after_wrapper', obj);
 
